@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/door"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/door"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        tools:text="Door" />
+
+    <TextView
+        android:id="@+id/alarm"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/alarm"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/door"
+        app:layout_constraintVertical_bias="0.046"
+        tools:text="Alarm" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/tv"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarm"
+        app:layout_constraintVertical_bias="0.051"
+        tools:text="TV" />
+
+    <TextView
+        android:id="@+id/curtain"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/curtain"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        app:layout_constraintVertical_bias="0.072"
+        tools:text="Curtain" />
+
+    <TextView
+        android:id="@+id/window"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/window"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curtain"
+        app:layout_constraintVertical_bias="0.12"
+        tools:text="Window" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/light"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/window"
+        app:layout_constraintVertical_bias="0.135"
+        tools:text="Light" />
+
+    <TextView
+        android:id="@+id/fan"
+        android:layout_width="354dp"
+        android:layout_height="71dp"
+        android:text="@string/fan"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light"
+        app:layout_constraintVertical_bias="0.473"
+        tools:text="Fan" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton"
+        android:textOff="@string/close"
+        android:textOn="@string/open"
+        app:layout_constraintBottom_toBottomOf="@+id/door"
+        app:layout_constraintEnd_toEndOf="@+id/door"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/door"
+        app:layout_constraintTop_toTopOf="@+id/door"
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton1"
+        app:layout_constraintBottom_toBottomOf="@+id/alarm"
+        app:layout_constraintEnd_toEndOf="@+id/alarm"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/alarm"
+        app:layout_constraintTop_toTopOf="@+id/alarm"
+        app:layout_constraintVertical_bias="0.391"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton2"
+        app:layout_constraintBottom_toBottomOf="@+id/tv"
+        app:layout_constraintEnd_toEndOf="@+id/tv"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/tv"
+        app:layout_constraintTop_toTopOf="@+id/tv"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton3"
+        android:textOff="@string/close1"
+        android:textOn="@string/open1"
+        app:layout_constraintBottom_toBottomOf="@+id/curtain"
+        app:layout_constraintEnd_toEndOf="@+id/curtain"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/curtain"
+        app:layout_constraintTop_toTopOf="@+id/curtain"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton4"
+        android:textOff="@string/close2"
+        android:textOn="@string/open2"
+        app:layout_constraintBottom_toBottomOf="@+id/window"
+        app:layout_constraintEnd_toEndOf="@+id/window"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/window"
+        app:layout_constraintTop_toTopOf="@+id/window"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton5"
+        app:layout_constraintBottom_toBottomOf="@+id/light"
+        app:layout_constraintEnd_toEndOf="@+id/light"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/light"
+        app:layout_constraintTop_toTopOf="@+id/light"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton7"
+        app:layout_constraintBottom_toBottomOf="@+id/fan"
+        app:layout_constraintEnd_toEndOf="@+id/fan"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="@+id/fan"
+        app:layout_constraintTop_toTopOf="@+id/fan"
+        app:layout_constraintVertical_bias="0.391" />
+</androidx.constraintlayout.widget.ConstraintLayout>
