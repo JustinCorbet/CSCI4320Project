@@ -7,48 +7,28 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Handler;
 
+import com.example.csci4320project.databinding.SplashScreenBinding;
+
 public class SplashScreen extends AppCompatActivity {
 
+    private SplashScreenBinding binding;
     private long splashDelay = 3000;
 
-    //Handler mDelayHandler = new Handler();
+    Handler mDelayHandler = new Handler();
 
-    Intent change = new Intent(this, MainActivity.class);
-
-   /*
-    Runnable runnable = new Runnable() {
+    Runnable mRunnable = new Runnable() {
         @Override
         public void run() {
             finish();
-            startActivity(change);
         }
     };
 
-
-    */
-
-    public void splashToMain(){
-        Intent changes = new Intent(this, MainActivity.class);
-        finish();
-        startActivity(change);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
-        splashToMain();
-        // mDelayHandler.postDelayed(runnable, splashDelay);
+        mDelayHandler.postDelayed(mRunnable, splashDelay);
+        Intent splashToLogin = new Intent(this, Login.class);
     }
-
-    /*
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        if (mDelayHandler != null) {
-            mDelayHandler.removeCallbacks(runnable);
-        }
-    }
-
-     */
 }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Alarm">
+        <State />
+      </entry>
+      <entry key="Curtain">
+        <State />
+      </entry>
+      <entry key="Door">
+        <State />
+      </entry>
+      <entry key="ExampleInstrumentedTest">
+        <State />
+      </entry>
+      <entry key="Fan">
+        <State />
+      </entry>
+      <entry key="Gas">
+        <State />
+      </entry>
+      <entry key="Light">
+        <State />
+      </entry>
+      <entry key="Login">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\justi\.android\avd\Pixel_3_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-06T01:02:03.633039700Z" />
+        </State>
+      </entry>
+      <entry key="MainActivity">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\justi\.android\avd\Pixel_3_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-06T01:59:49.218849800Z" />
+        </State>
+      </entry>
+      <entry key="SplashScreen">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\justi\.android\avd\Pixel_3_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-06T01:14:53.328580400Z" />
+        </State>
+      </entry>
+      <entry key="TV">
+        <State />
+      </entry>
+      <entry key="Temperature">
+        <State />
+      </entry>
+      <entry key="Voltage">
+        <State />
+      </entry>
+      <entry key="Water">
+        <State />
+      </entry>
+      <entry key="Window">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\justi\.android\avd\Pixel_3_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-06T00:43:56.650363Z" />
+        </State>
+      </entry>
+    </value>
+  </component>
+</project>
